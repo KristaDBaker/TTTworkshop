@@ -104,7 +104,7 @@ plot(x, y)
 
 Can fit and then print the summary regression output from R:
 
-```{r regression}
+```{r regression, include=FALSE}
 fit <- lm(y ~ x)
 print(summary(fit))
 ``` 
